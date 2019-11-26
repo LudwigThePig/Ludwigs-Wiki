@@ -1,5 +1,5 @@
 html {
-  font-family: sans-serif;
+  font-family: Roboto, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -41,10 +41,12 @@ template {
 }
 a {
   background-color: transparent;
+  color: #ed6767;
   -webkit-text-decoration-skip: objects;
 }
 a:active,
 a:hover {
+  color: #793f5c;
   outline-width: 0;
 }
 abbr[title] {
@@ -185,7 +187,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  font: 112.5%/1.45em Roboto, sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -200,7 +202,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: Roboto, sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
